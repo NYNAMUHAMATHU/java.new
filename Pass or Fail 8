@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+          Scanner sc=new Scanner(System.in);
+          int mark=55;
+        mark=sc.nextInt();
+       
+        if(mark>=50){
+            System.out.print("Pass");
+        }
+        else{
+             System.out.print("Fail");
+        }
+
+    
+    }
+}
